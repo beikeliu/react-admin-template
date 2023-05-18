@@ -6,7 +6,7 @@ import Content from "./Content";
 
 const Layout: React.FC = () => {
   return (
-    <ALayout className="Layout">
+    <ALayout className="layout">
       <Sider />
       <ALayout>
         <Header />

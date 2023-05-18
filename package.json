@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lintfix": "eslint --fix src --ext ts,tsx && stylelint --fix \"**/*.scss\"",
     "preview": "vite preview",
     "prepare": "husky install"
   },
@@ -69,7 +69,7 @@
     ]
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint",
-    "**/*.scss": "stylelint"
+    "*.{ts,tsx}": "eslint --fix",
+    "*.scss": "stylelint --fix"
   }
 }
