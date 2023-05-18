@@ -4,9 +4,9 @@ import "./style.scss";
 import { RouterProvider } from "react-router-dom";
 import router from "./router";
 
-const root = document.getElementById("root")!;
+const root = document.getElementById("root");
 
-ReactDOM.createRoot(root).render(
+root && ReactDOM.createRoot(root).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
