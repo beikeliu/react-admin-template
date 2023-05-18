@@ -7,7 +7,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     errorElement: <div>哎呦，您输入的链接出错了！</div>,
-    children
+    children,
   },
 ]);
 
