@@ -15,7 +15,7 @@ const Sider: React.FC = () => {
   };
   return (
     <Layout.Sider>
-      <div className="Layout__Sider__logo">Nine Admin</div>
+      <div className="layout__Sider__logo">Nine Admin</div>
       <Menu
         theme="dark"
         defaultSelectedKeys={[defaultItem]}
