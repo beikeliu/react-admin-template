@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const defaultItem = "data-overview";
 
-const Sider: React.FC = () => {
+const Sidebar: React.FC = () => {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("data-overview");
@@ -15,7 +15,7 @@ const Sider: React.FC = () => {
   };
   return (
     <Layout.Sider>
-      <div className="layout__Sider__logo">Nine Admin</div>
+      <div className="layout__Sidebar__logo">Nine Admin</div>
       <Menu
         theme="dark"
         defaultSelectedKeys={[defaultItem]}
@@ -27,4 +27,4 @@ const Sider: React.FC = () => {
   );
 };
 
-export default Sider;
+export default Sidebar;

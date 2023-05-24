@@ -1,13 +1,13 @@
 import { Layout as ALayout } from "antd";
 import "./style.scss";
-import Sider from "./Sider";
+import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Content from "./Content";
 
 const Layout: React.FC = () => {
   return (
     <ALayout className="layout">
-      <Sider />
+      <Sidebar />
       <ALayout>
         <Header />
         <Content />

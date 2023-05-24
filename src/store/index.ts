@@ -1,11 +1,11 @@
 import { create } from "zustand";
 
-interface UserStroe {
+interface UserStore {
   name: string;
   setName: (name: string) => void
 }
 
-const useUserStore = create<UserStroe>((set) => ({
+const useUserStore = create<UserStore>((set) => ({
   name: "",
   setName: (name) => set(() => ({ name })),
 }));
