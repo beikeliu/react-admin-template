@@ -7,7 +7,7 @@ const children = [
     element: <DataOverview />,
   },
   {
-    path: "user-list",
+    path: "user-center/user-list",
     element: <UserList />
   }
 ];

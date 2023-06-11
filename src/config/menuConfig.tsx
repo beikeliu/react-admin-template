@@ -19,7 +19,7 @@ const items: MenuItem[] = [
     children: [
       {
         label: "用户列表",
-        key: "user-list",
+        key: "user-center/user-list",
         icon: <UnorderedListOutlined />,
       },
     ],
